@@ -15,7 +15,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%;  
 }
 
 h1 {
@@ -37,5 +37,31 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
 }
+.container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.container article{
+    height: auto;
+    width: 50rem;
+    text-align:center;
+    background-color: #2196F3;
+}
 
 /** CODIGO AQUI **/
+@media (min-width: 768px){
+    .contenedor{
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+    .entrada-blog{
+        /*Se debe usar con justify-content: space-between para mejor visualizacion*/
+        flex-basis: 0 0 calc(33.3% - 1rem);
+    }
+    .container{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
