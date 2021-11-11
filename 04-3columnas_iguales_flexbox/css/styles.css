@@ -48,6 +48,10 @@ h1 {
     text-align:center;
     background-color: #2196F3;
 }
+.entrada-blog a:hover{
+    cursor: pointer;
+    background-color: #043155;
+}
 
 /** CODIGO AQUI **/
 @media (min-width: 768px){
@@ -60,8 +64,13 @@ h1 {
         /*Se debe usar con justify-content: space-between para mejor visualizacion*/
         flex-basis: 0 0 calc(33.3% - 1rem);
     }
-    .container{
+    .entrada-blog a{
+        display: block;
+        text-align: center;
+        border-radius: 2rem;
+    }
+    /* .container{
         flex-wrap: wrap;
         gap: 2rem;
-    }
+    } */
 }
