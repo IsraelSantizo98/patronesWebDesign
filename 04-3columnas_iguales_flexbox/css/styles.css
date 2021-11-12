@@ -64,6 +64,9 @@ h1 {
         /*Se debe usar con justify-content: space-between para mejor visualizacion*/
         flex-basis: 0 0 calc(33.3% - 1rem);
     }
+    .entrada-blog h1{
+        text-align: center;
+    }
     .entrada-blog a{
         display: block;
         text-align: center;
